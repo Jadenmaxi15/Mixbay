@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 from itertools import cycle
 
 # Pixabay API key - Replace 'YOUR_PIXABAY_API_KEY' with your actual API key
-API_KEY = 'YOUR_PIXABAY_API_KEY'
+API_KEY = '27065965-6f3403037cd82e39462f07a37'
 
 def fetch_images(keyword):
     url = f'https://pixabay.com/api/?key={API_KEY}&q={keyword}&image_type=photo'
